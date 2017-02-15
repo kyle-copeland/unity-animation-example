@@ -21,7 +21,7 @@ public class PlayerHealth : MonoBehaviour {
 
 	void Update () {
 		UpdateHealth (); 
-		anim.SetLayerWeight (1, 1.00f - health);
+		anim.SetLayerWeight (2, 1.00f - health);
 		healthSlider.value = health;
 	}
 
